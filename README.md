@@ -3,6 +3,7 @@
 Repo. for finding how to add external authentication in Cilium CNI, using CiliumEnvoyConfig
 
 ### How to Setup
+- Check "https://docs.cilium.io/en/stable/network/servicemesh/l7-traffic-management"
 - Apply `cilium-yaml/test-application.yaml`
 - Edit, and Build Go Code (Default Port: 50051)
 - Run Auth Server
