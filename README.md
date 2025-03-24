@@ -17,7 +17,7 @@ Repo. for finding how to add external authentication in Cilium CNI, using Cilium
 - because of `dns_refresh_rate: 1s`, Envoy will check health of Auth Server every 1s. Change this if you want.
 - In my case, Auth server was deployed in local, not in K8S Cluster. I didn't check whether it works when auth server is deployed in K8S Cluster.
 
-### Code From
+### YAML File From
 - `cilium-yaml/test-application.yaml` https://raw.githubusercontent.com/cilium/cilium/1.17.2/examples/kubernetes/servicemesh/envoy/test-application.yaml
 
 ---
